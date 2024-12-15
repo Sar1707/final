@@ -7,8 +7,8 @@ const app = new express();
 
 app.use(
     cors({
-        origin: process.env.CORS_ORIGIN,
-        credentials: true,
+        origin: 'https://you-twit.onrender.com', // Replace with your actual frontend URL
+  credentials: true, // This is crucial for including credentials
     })
 );
 
