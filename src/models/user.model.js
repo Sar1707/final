@@ -30,7 +30,7 @@ const userSchema = new Schema(
                 public_id: String,
                 url: String //cloudinary url
             },
-            required: true
+            required: false
         },
         coverImage: {
             type: {
